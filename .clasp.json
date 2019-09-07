@@ -1,0 +1,5 @@
+{
+  "scriptId": "1_kDO_wzM5-Uzukf6kMTTwR0JulLsQHfTuJpxILFMDR876XmRlzYBJuje",
+  "rootDir": "src/",
+  "filePushOrder": ["src/types.ts","src/config.ts", "src/utilities.ts", "src/functions.ts", "src/helpers.ts"]
+}

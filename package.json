@@ -1,0 +1,14 @@
+{
+  "name": "fifa-battleplan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Smith <t@wpsmith.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "0.0.58"
+  }
+}
