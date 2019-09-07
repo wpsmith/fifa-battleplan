@@ -40,8 +40,31 @@ function onOpen(e: GoogleAppsScript.Script.Trigger) {
 function onEdit(e: GoogleAppsScript.Script.Trigger) {
     let activeSheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
 
+    // @todo Investigate whether to use e.source: Spreadsheet or e.range: Range
     watchActualGoals(activeSheet, "team");
     watchActualGoals(activeSheet, "opponent");
+
+    // @todo Add Chances computation.
+
+    // @todo Check for Sheet Name Changes
+
+    /**
+     * @todo Watch ranges identified on Config Sheet and change accordingly.
+     *       - activeTeam.data.rankingRange
+     *       - battlePlan.startCol
+     *       - battlePlan.data.opponentStartCol
+     *       - battlePlan.data.opponentLeagueName
+     *       - battlePlan.data.opponentLeagueRank
+     *       - battlePlan.data.opponentRange
+     *       - battlePlan.data.opponentCols
+     *       - battlePlan.data.opponentActualGoalsCol
+     *       - battlePlan.data.teamRange
+     *       - battlePlan.data.teamCols
+     *       - battlePlan.data.teamActualGoalsCol
+     *       - data.data.state
+     *       - data.data.teamActualGoals
+     *       - data.data.opponentActualGoals).
+     */
 
 }
 
